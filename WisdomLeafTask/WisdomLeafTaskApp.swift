@@ -7,11 +7,13 @@
 
 import SwiftUI
 
+
+@available(iOS 15.0, *)
 @main
 struct WisdomLeafTaskApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SplashScreen() // Show the SplashScreen as the initial view
         }
     }
 }
